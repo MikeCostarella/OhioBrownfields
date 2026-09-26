@@ -1,0 +1,428 @@
+[
+  {
+    "id": "mcdonald-steel",
+    "name": "Former McDonald Steel (U.S. Steel McDonald Works)",
+    "address": "100 Ohio Ave.",
+    "city": "McDonald",
+    "county": "Trumbull",
+    "fips": "39155",
+    "lat": 41.1693,
+    "lon": -80.7265,
+    "locationPrecision": "approximate",
+    "formerUse": "Steel mill (Carnegie Steel / U.S. Steel McDonald Works, later McDonald Steel Corp.)",
+    "acres": 51.8,
+    "owner": "AP McDonald LLC (Applied Partners affiliate); sale to a new owner pending",
+    "status": "All buildings except the office have been demolished; a sale was expected between July and October 2026, and a large data center has been proposed.",
+    "summary": "Built in 1918 by U.S. Steel's Carnegie Steel subsidiary, closed by U.S. Steel in 1979–80, and reopened in 1981 as McDonald Steel, a maker of hot-rolled steel shapes. AP McDonald LLC bought the property on July 23, 2024 for $3.25 million and began demolition with asbestos and PCB removal in fall 2025. A data center has been proposed on roughly 350 acres assembled around the site.",
+    "program": "Applied for a $2M Ohio Brownfield Remediation Program grant (Feb 2025) for asbestos and lead cleanup; no award reported",
+    "sources": [
+      {
+        "title": "Major Data Center Planned for McDonald Steel Site",
+        "publisher": "Business Journal Daily",
+        "date": "2025-11-10",
+        "url": "https://businessjournaldaily.com/major-data-center-planned-for-mcdonald-steel-site/"
+      },
+      {
+        "title": "New ownership to take over McDonald Steel property",
+        "publisher": "The Vindicator",
+        "date": "2026-04-21",
+        "url": "https://www.vindy.com/news/local-news/2026/04/new-ownership-to-take-over-mcdonald-steel-property/"
+      },
+      {
+        "title": "Brownfield cleanup funds in hot demand",
+        "publisher": "The Vindicator",
+        "date": "2025-02-24",
+        "url": "https://www.vindy.com/news/local-news/2025/02/brownfield-cleanup-funds-in-hot-demand/"
+      }
+    ],
+    "reviewed": "2026-09-26"
+  },
+  {
+    "id": "niles-generating-station",
+    "name": "Former Niles Generating Station (Ohio Edison)",
+    "address": "1047 Belmont Ave.",
+    "city": "Niles (Weathersfield Twp.)",
+    "county": "Trumbull",
+    "fips": "39155",
+    "lat": 41.1659,
+    "lon": -80.7385,
+    "locationPrecision": "approximate",
+    "formerUse": "Coal-fired power plant (Ohio Edison / FirstEnergy)",
+    "acres": 41.8,
+    "owner": "Whitetail Creek LLC (Bitdeer Technologies Group subsidiary)",
+    "status": "Bitdeer plans a 300 MW AI data center on the cleared site and was seeking annexation into Niles as of April 2026, amid local opposition.",
+    "summary": "Ohio Edison built the coal plant in 1953; it closed in 2013 and the main structure was imploded on April 28, 2022, leaving the electrical infrastructure. Bitdeer bought the site on May 5, 2025 for $3.4 million and is targeting power delivery around 2028–2029.",
+    "program": null,
+    "sources": [
+      {
+        "title": "Bitdeer Eyes 'Energization' for Weathersfield Project in 2029",
+        "publisher": "Business Journal Daily",
+        "date": "2025-12-15",
+        "url": "https://businessjournaldaily.com/bitdeer-eyes-energization-for-weathersfield-project-in-2029/"
+      },
+      {
+        "title": "Niles hears from potential data center company",
+        "publisher": "Tribune Chronicle",
+        "date": "2026-04-16",
+        "url": "https://www.tribtoday.com/news/local-news/2026/04/niles-hears-from-potential-data-center-company/"
+      },
+      {
+        "title": "Ohio Edison Power Plant near Niles, Ohio, demolished",
+        "publisher": "Mahoning Matters",
+        "date": "2022-04-28",
+        "url": "https://www.mahoningmatters.com/news/local/article260883262.html"
+      }
+    ],
+    "reviewed": "2026-09-26"
+  },
+  {
+    "id": "warren-steel-copperweld",
+    "name": "Former Warren Steel / Copperweld Steel mill",
+    "address": "Mahoning Ave. NW near the SR 82 / SR 45 interchange",
+    "city": "Warren (Champion & Warren Twps.)",
+    "county": "Trumbull",
+    "fips": "39155",
+    "lat": 41.2714,
+    "lon": -80.83924,
+    "locationPrecision": "approximate",
+    "formerUse": "Steel mill (Copperweld Steel / CSC Ltd., later Warren Steel Holdings)",
+    "acres": 360,
+    "owner": "Warren Steel Holdings LLC (in foreclosure)",
+    "status": "A court approved foreclosure in April 2026, clearing the way for a sheriff's appraisal and sale; Ohio Star Forge still operates on part of the property.",
+    "summary": "Copperweld moved to Warren in 1939. Warren Steel Holdings bought the mill out of bankruptcy in 2001, and it shut down for good in 2016. Ohio EPA found abandoned chemicals, oil pits and hazardous materials in 2019, and the property is now under a court-approved environmental covenant.",
+    "program": "Ohio EPA-overseen cleanup under a court-approved environmental covenant",
+    "sources": [
+      {
+        "title": "Court Approves Foreclosure of Warren Steel, Allows Sale",
+        "publisher": "Business Journal Daily",
+        "date": "2026-04-17",
+        "url": "https://businessjournaldaily.com/court-approves-foreclosure-of-warren-steel-allows-sale/"
+      },
+      {
+        "title": "Florida company seeks foreclosure on site of former Copperweld property",
+        "publisher": "The Vindicator",
+        "date": "2025-07-15",
+        "url": "https://www.vindy.com/news/business-news/2025/07/florida-company-seeks-foreclosure-on-site-of-former-copperweld-property/"
+      },
+      {
+        "title": "Progress at Warren Steel; Cleaning Up, Paying Taxes",
+        "publisher": "Business Journal Daily",
+        "date": "2022-07-05",
+        "url": "https://businessjournaldaily.com/progress-at-warren-steel-cleaning-up-paying-taxes/"
+      }
+    ],
+    "reviewed": "2026-09-26"
+  },
+  {
+    "id": "campbell-works-casey-drive",
+    "name": "Former Youngstown Sheet & Tube Campbell Works (Casey Drive Industrial Park)",
+    "address": "Casey Drive",
+    "city": "Campbell",
+    "county": "Mahoning",
+    "fips": "39099",
+    "lat": 41.06764,
+    "lon": -80.60378,
+    "locationPrecision": "approximate",
+    "formerUse": "Steel mill (Youngstown Sheet & Tube Campbell Works)",
+    "acres": null,
+    "owner": null,
+    "status": "Part of the former works is now the Casey Drive Industrial Park; a $299,856 state remediation application was filed in February 2025, with no award reported.",
+    "summary": "The Casey Drive Industrial Park occupies part of Youngstown Sheet & Tube's former Campbell Works. A $299,856 site-remediation request for it was one of five Mahoning County applications in the February 2025 Ohio Brownfield Remediation Program round, when the state portal filled within about an hour. EPA's ACRES list separately includes the Youngstown Sheet & Tube Seamless Tube Mill parcel nearby in Struthers.",
+    "program": "Ohio Brownfield Remediation Program application ($299,856, Feb 2025; award not reported)",
+    "sources": [
+      {
+        "title": "Brownfield cleanup funds in hot demand",
+        "publisher": "The Vindicator",
+        "date": "2025-02-24",
+        "url": "https://www.vindy.com/news/local-news/2025/02/brownfield-cleanup-funds-in-hot-demand/"
+      },
+      {
+        "title": "Demand outpaces brownfield remediation resources",
+        "publisher": "Tribune Chronicle",
+        "date": "2025-02",
+        "url": "https://www.tribtoday.com/news/local-news/2025/02/demand-outpaces-brownfield-remediation-resources/"
+      }
+    ],
+    "reviewed": "2026-09-26"
+  },
+  {
+    "id": "republic-steel-lorain",
+    "name": "Former Republic Steel Lorain mill",
+    "address": "Lorain Works complex along the Black River, north of E. 28th St.",
+    "city": "Lorain",
+    "county": "Lorain",
+    "fips": "39093",
+    "lat": 41.448,
+    "lon": -82.1336,
+    "locationPrecision": "approximate",
+    "formerUse": "Steel mill (Republic Steel)",
+    "acres": 435,
+    "owner": "Republic Steel (Grupo Simec)",
+    "status": "Idle and deteriorating; the city cited code violations, and in late 2025 Grupo Simec was reported in talks with international producers about a restart.",
+    "summary": "Steelmaking on the site began in 1895. Republic cut the mill to about 100 workers in 2016 and stopped all operations in 2022. City inspectors in 2024 reported flooded basements, collapsing roofs and debris piles and said they would refer violations to Ohio EPA. EPA's ACRES list includes one separate parcel of the old Lorain Works (the turning basin), but not the mill.",
+    "program": null,
+    "sources": [
+      {
+        "title": "Republic Steel 'just looks like it's been unkempt for years'",
+        "publisher": "News 5 Cleveland (WEWS)",
+        "date": "2024-04-27",
+        "url": "https://www.news5cleveland.com/news/local-news/it-was-one-of-lorains-largest-employers-now-its-one-of-the-citys-biggest-problems"
+      },
+      {
+        "title": "Lorain steel reinvestment may revive international legacy",
+        "publisher": "Spectrum News 1",
+        "date": "2025-12-05",
+        "url": "https://spectrumnews1.com/oh/columbus/news/2025/12/05/lorain-steel-reinvestment--legacy"
+      }
+    ],
+    "reviewed": "2026-09-26"
+  },
+  {
+    "id": "avon-lake-power-plant",
+    "name": "Former Avon Lake Power Plant",
+    "address": "33570 Lake Rd.",
+    "city": "Avon Lake",
+    "county": "Lorain",
+    "fips": "39093",
+    "lat": 41.50452,
+    "lon": -82.05327,
+    "locationPrecision": "address",
+    "formerUse": "Coal-fired power plant",
+    "acres": 43,
+    "owner": "Avon Lake Environmental Redevelopment Group (Charah Solutions affiliate)",
+    "status": "Remediation to Ohio EPA standards is ongoing; the site was rezoned in May 2026 and the city is buying about 23 acres for a lakefront park.",
+    "summary": "The plant generated its last power in March 2022. Asbestos removal and demolition, including implosions beginning in 2024, were expected to wrap up around spring 2025, and the owner is marketing the remainder for mixed-use development.",
+    "program": null,
+    "sources": [
+      {
+        "title": "Avon Lake power plant site could become lakefront park, mixed-use development",
+        "publisher": "Cleveland 19 (WOIO)",
+        "date": "2026-07-08",
+        "url": "https://www.cleveland19.com/2026/07/08/avon-lake-power-plant-site-could-become-lakefront-park-mixed-use-development/"
+      },
+      {
+        "title": "Avon Lake Power Plant demolition expected to finish in spring of 2025",
+        "publisher": "News 5 Cleveland (WEWS)",
+        "date": "2024-03-28",
+        "url": "https://www.news5cleveland.com/news/local-news/we-follow-through/avon-lake-power-plant-demolition-expected-to-finish-in-spring-of-2025"
+      }
+    ],
+    "reviewed": "2026-09-26"
+  },
+  {
+    "id": "eastlake-power-plant",
+    "name": "Former Eastlake Power Plant",
+    "address": "Lake Erie shoreline near the mouth of the Chagrin River",
+    "city": "Eastlake",
+    "county": "Lake",
+    "fips": "39085",
+    "lat": 41.67131,
+    "lon": -81.44292,
+    "locationPrecision": "approximate",
+    "formerUse": "Coal-fired power plant (Cleveland Electric Illuminating / FirstEnergy)",
+    "acres": 76.2,
+    "owner": "Industrial Development Advantage (through a subsidiary)",
+    "status": "A 2025 state grant funds demolition of 11 vacant buildings and soil cleanup; a coal-ash refining pilot opened on the site in September 2026.",
+    "summary": "Two coal units were deactivated in 2012 and the last three shut down in April 2015; synchronous condensers still operate on part of the 120-acre parcel. Industrial Development Advantage took the property and its environmental liabilities from Energy Harbor and is marketing about 65 acres for industrial, energy or data-center use.",
+    "program": "Ohio Brownfield Remediation Program grant ($2,499,542, 2025)",
+    "sources": [
+      {
+        "title": "Representative Troy Announces $5.7 Million in Brownfield Remediation Grants to Three Lake County Projects",
+        "publisher": "Ohio House of Representatives",
+        "date": "2025-06-09",
+        "url": "https://ohiohouse.gov/members/daniel-p-troy/news/representative-troy-announces-57-million-in-brownfield-remediation-grants-to-three-lake-county-projects-134205"
+      },
+      {
+        "title": "Eastlake Power Station (project page)",
+        "publisher": "Industrial Development Advantage",
+        "date": null,
+        "url": "https://indevadv.com/our-projects/eastlake-power-station/"
+      },
+      {
+        "title": "Eastlake Power Plant Site to Host Coal Ash Refinery Pilot",
+        "publisher": "Hoodline",
+        "date": "2026-09-06",
+        "url": "https://hoodline.com/2026/09/eastlake-s-old-coal-plant-gets-new-job-refining-ash-into-semiconductor-metals/"
+      }
+    ],
+    "reviewed": "2026-09-26"
+  },
+  {
+    "id": "cleveland-thermal-canal-road",
+    "name": "Former Cleveland Thermal steam plant",
+    "address": "2274 Canal Rd.",
+    "city": "Cleveland",
+    "county": "Cuyahoga",
+    "fips": "39035",
+    "lat": 41.49506,
+    "lon": -81.6892,
+    "locationPrecision": "address",
+    "formerUse": "Coal-fired district steam plant (built by Cleveland Electric Illuminating Co.)",
+    "acres": 1.5,
+    "owner": "Corix Cleveland Thermal Generating LP (as of June 2025; Bedrock affiliate pursuing purchase)",
+    "status": "A June 2025 state grant funds remediation and demolition, with Bedrock planning mixed-use riverfront development.",
+    "summary": "Opened in 1894, the plant heated more than 100 downtown buildings with coal-fired steam for over a century before closing in December 2016. The Cuyahoga Land Bank won about $2.5M toward $4.9M in demolition and cleanup costs.",
+    "program": "Ohio Brownfield Remediation Program grant (~$2.5M, 2025) via Cuyahoga Land Bank",
+    "sources": [
+      {
+        "title": "Bedrock Wants to Demolish Some of Cleveland Thermal for Its Riverfront Development",
+        "publisher": "Cleveland Magazine",
+        "date": "2025-06-10",
+        "url": "https://clevelandmagazine.com/articles/bedrock-wants-to-demolish-some-of-cleveland-thermal-for-its-riverfront-development/"
+      },
+      {
+        "title": "Downtown steam plant to be razed, redeveloped",
+        "publisher": "NEOtrans",
+        "date": "2025-06-05",
+        "url": "https://neo-trans.blog/2025/06/05/downtown-steam-plant-to-be-razed-redeveloped/"
+      }
+    ],
+    "reviewed": "2026-09-26"
+  },
+  {
+    "id": "lake-shore-power-plant",
+    "name": "Former Lake Shore Power Plant (CEI / FirstEnergy)",
+    "address": "6800 S. Marginal Rd.",
+    "city": "Cleveland",
+    "county": "Cuyahoga",
+    "fips": "39035",
+    "lat": 41.53182,
+    "lon": -81.64826,
+    "locationPrecision": "address",
+    "formerUse": "Coal-fired power plant (Cleveland Electric Illuminating Co. Lake Shore Power Station)",
+    "acres": 62,
+    "owner": "Lake Shore Acquisition Company LLC (Industrial Development Advantage affiliate)",
+    "status": "Remediated in 2024–25 and offered for sale or lease in February 2026 for industrial, logistics, data-center or mixed-use development; remaining structures are slated for demolition by 2028.",
+    "summary": "CEI built the plant in 1911; it closed in 2015 and was imploded in 2017. Industrial Development Advantage acquired it from Energy Harbor with all environmental liabilities, and the two companies spent several million dollars on remediation. Community groups are pushing for housing and parks on the lakefront site.",
+    "program": null,
+    "sources": [
+      {
+        "title": "Lake Shore Power Plant site in play",
+        "publisher": "NEOtrans",
+        "date": "2026-02-16",
+        "url": "https://neo-trans.blog/2026/02/16/lake-shore-power-plant-site-in-play/"
+      },
+      {
+        "title": "One of Cleveland's Largest Lakefront Sites Now In Play for Possible Development",
+        "publisher": "Cleveland Magazine",
+        "date": "2024-01-08",
+        "url": "https://clevelandmagazine.com/articles/one-of-clevelands-largest-lakefront-sites-now-in-play-for-possible-development/"
+      },
+      {
+        "title": "Lake Shore Power Station (project page)",
+        "publisher": "Industrial Development Advantage",
+        "date": null,
+        "url": "https://indevadv.com/our-projects/lake-shore-power-station/"
+      }
+    ],
+    "reviewed": "2026-09-26"
+  },
+  {
+    "id": "republic-steel-canton",
+    "name": "Former Republic Steel Canton mill",
+    "address": "2633 Eighth St. NE",
+    "city": "Canton",
+    "county": "Stark",
+    "fips": "39151",
+    "lat": 40.80503,
+    "lon": -81.33674,
+    "locationPrecision": "approximate",
+    "formerUse": "Steel mill (Republic Steel special-bar-quality steel)",
+    "acres": null,
+    "owner": "Republic Steel (Grupo Simec), as of 2024",
+    "status": "As of August 2024 the mill was standing and deteriorating while the city negotiated a transfer to a developer for brownfield cleanup.",
+    "summary": "Grupo Simec idled the Canton mill in August 2023 and closed it permanently that October, citing weak demand and high costs; about 500 workers were furloughed across its Canton and Lackawanna, N.Y. mills. Residents had long complained about lead and air emissions.",
+    "program": null,
+    "sources": [
+      {
+        "title": "CRU: Grupo Simec Shuts Two Republic Steel Mills For Good",
+        "publisher": "Steel Market Update",
+        "date": "2023-10-16",
+        "url": "https://www.steelmarketupdate.com/2023/10/16/cru-grupo-simec-shuts-two-republic-steel-mills-for-good/"
+      },
+      {
+        "title": "'Cloud has been lifted.' Reflecting on Republic Steel closure in Canton one year later",
+        "publisher": "Canton Repository (via AOL)",
+        "date": "2024-08",
+        "url": "https://www.aol.com/cloud-lifted-reflecting-republic-steel-095119459.html"
+      }
+    ],
+    "reviewed": "2026-09-26"
+  },
+  {
+    "id": "westinghouse-mansfield",
+    "name": "Former Westinghouse Electric plant (Mansfield)",
+    "address": "200 E. Fifth St.",
+    "city": "Mansfield",
+    "county": "Richland",
+    "fips": "39139",
+    "lat": 40.76343,
+    "lon": -82.51053,
+    "locationPrecision": "address",
+    "formerUse": "Appliance and electrical equipment manufacturing (Westinghouse Electric, 1918–1990)",
+    "acres": 14,
+    "owner": "Richland County Land Bank",
+    "status": "Demolition and cleanup are complete; the cleared site awaits a redevelopment partner.",
+    "summary": "Westinghouse operated the plant from 1918 until the end of 1990, employing more than 8,000 people at its peak. The Richland County Land Bank began demolition in December 2022, funded mainly by a $3M state grant, and U.S. EPA provided technical assistance with a market analysis for mixed-use redevelopment.",
+    "program": "State of Ohio brownfield/demolition grant ($3M, 2022); U.S. EPA Brownfields and Land Reutilization Technical Assistance (2024)",
+    "sources": [
+      {
+        "title": "What is the future for former Westinghouse & YMCA sites in Mansfield?",
+        "publisher": "Richland Source",
+        "date": "2025-01-10",
+        "url": "https://www.richlandsource.com/2025/01/10/richland-county-land-bank-discusses-westinghouse-ymca-and-more/"
+      },
+      {
+        "title": "Dry up, would ya? Westinghouse site demo/cleanup still slowed by water issues",
+        "publisher": "Richland Source",
+        "date": "2024-01-28",
+        "url": "https://www.richlandsource.com/2024/01/28/dry-up-would-ya-westinghouse-site-demo-cleanup-still-slowed-by-water-issues/"
+      },
+      {
+        "title": "Westinghouse to West Park: R&D Excavating gets contract to demolish former strip mall",
+        "publisher": "Richland Source",
+        "date": "2026-09-23",
+        "url": "https://www.richlandsource.com/2026/09/23/westinghouse-to-west-park-rd-excavating-gets-contract-to-demolish-former-strip-mall/"
+      }
+    ],
+    "reviewed": "2026-09-26"
+  },
+  {
+    "id": "beckjord-power-station",
+    "name": "Former W.C. Beckjord Power Station",
+    "address": "U.S. Route 52, Pierce Township",
+    "city": "New Richmond",
+    "county": "Clermont",
+    "fips": "39025",
+    "lat": 38.9955,
+    "lon": -84.2955,
+    "locationPrecision": "approximate",
+    "formerUse": "Coal-fired power plant (Cincinnati Gas & Electric / Duke Energy)",
+    "acres": 1443,
+    "owner": "New Richmond Development Corp. LLC",
+    "status": "The plant is demolished; coal-ash remediation continues and is the subject of a federal lawsuit allowed to proceed in 2024.",
+    "summary": "CG&E opened the plant in 1952 and Duke Energy retired it in 2014. In 2018 Duke transferred it to Commercial Liability Partners, which assumed coal-ash liability in exchange for about $105M in cleanup funds. Millions of tons of coal ash remain in ponds near the Ohio River.",
+    "program": null,
+    "sources": [
+      {
+        "title": "New Richmond was a power plant town a decade ago. That legacy lingers",
+        "publisher": "WVXU",
+        "date": "2024-10-21",
+        "url": "https://www.wvxu.org/local-news/2024-10-21/new-richmond-ohio-power-plant"
+      },
+      {
+        "title": "Duke Energy removes 240-foot transmission tower from former Beckjord coal plant near New Richmond",
+        "publisher": "WCPO",
+        "date": "2022-04-08",
+        "url": "https://www.wcpo.com/news/local-news/i-team/duke-energy-removes-240-foot-transmission-tower-from-former-beckjord-coal-plant-near-new-richmond"
+      },
+      {
+        "title": "Beckjord Remediation Project",
+        "publisher": "Pierce Township",
+        "date": null,
+        "url": "https://piercetownship.org/beckjord-remediation-project/"
+      }
+    ],
+    "reviewed": "2026-09-26"
+  }
+]
