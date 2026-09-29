@@ -1,7 +1,11 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
+import { BASE_MAP_IDS, BASE_MAP_LABELS } from "../vendor/basemaps/basemaps";
+import type { BaseMapId } from "../vendor/basemaps/basemaps";
 
 export type AppView = "map" | "table" | "counties" | "curated";
-export type Basemap = "standard" | "satellite";
+// Base map choice comes from the shared fleet library (Streets / Aerial /
+// Aerial + labels); re-exported under the name this app has always used.
+export type Basemap = BaseMapId;
 
 const GITHUB_REPO_URL = "https://github.com/MikeCostarella/OhioBrownfields";
 const MY_WEBSITE_URL = "https://mikecostarella.github.io/MyWebSite/";
@@ -175,8 +179,9 @@ export default function MainMenu(p: Props) {
           </Section>
 
           <Section title="Basemap">
-            <Radio on={p.basemap === "satellite"} label="Satellite" onClick={() => p.onSetBasemap("satellite")} />
-            <Radio on={p.basemap === "standard"} label="Standard" onClick={() => p.onSetBasemap("standard")} />
+            {BASE_MAP_IDS.map((id) => (
+              <Radio key={id} on={p.basemap === id} label={BASE_MAP_LABELS[id]} onClick={() => p.onSetBasemap(id)} />
+            ))}
           </Section>
 
           <Section title="Layers">

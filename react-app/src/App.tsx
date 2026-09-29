@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import L from "leaflet";
-import MainMenu, { type AppView, type Basemap } from "./components/MainMenu";
+import MainMenu, { type AppView } from "./components/MainMenu";
+import { useBaseMap } from "./vendor/basemaps/useBaseMap";
 import SiteMap from "./components/SiteMap";
 import SiteList from "./components/SiteList";
 import SiteTable from "./components/SiteTable";
@@ -34,7 +35,7 @@ export default function App() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [detailOpen, setDetailOpen] = useState(false);
   const [aboutOpen, setAboutOpen] = useState(false);
-  const [basemap, setBasemap] = useState<Basemap>("standard");
+  const [basemap, setBasemap] = useBaseMap();
   const [shading, setShading] = useState(true);
   const [labels, setLabels] = useState(false);
   const [nearMe, setNearMe] = useState(false);

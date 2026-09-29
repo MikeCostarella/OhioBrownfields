@@ -50,6 +50,17 @@ export default defineConfig({
             },
           },
           {
+            // Ohio OSIP aerial tiles (vendor/basemaps); cached like the CARTO tiles so
+            // the aerial works offline the same way streets do.
+            urlPattern: ({ url }: { url: URL }) => url.host === "maps.ohio.gov" && url.pathname.includes("/osip_most_current_cache/"),
+            handler: "CacheFirst",
+            options: {
+              cacheName: "osip-tiles",
+              expiration: { maxEntries: 600, maxAgeSeconds: 60 * 60 * 24 * 14 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+          {
             // Esri basemap tiles (satellite World Imagery).
             urlPattern: ({ url }: { url: URL }) => url.host.includes("server.arcgisonline.com"),
             handler: "CacheFirst",

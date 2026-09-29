@@ -1,6 +1,9 @@
-import { MapContainer, TileLayer } from "react-leaflet";
+import { MapContainer } from "react-leaflet";
 import type L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import BaseMapLayers from "../vendor/basemaps/BaseMapLayers";
+import { CARTO_VOYAGER } from "../vendor/basemaps/basemaps";
+import type { TileSpec } from "../vendor/basemaps/basemaps";
 import type { CuratedSite, Site } from "../types/site";
 import type { Basemap } from "./MainMenu";
 import { COUNTIES_GEO } from "../data/sites";
@@ -30,8 +33,14 @@ interface Props {
 
 const OHIO_CENTER: [number, number] = [40.3, -82.7];
 
+// Streets keeps the app's own attribution suffix for the site data source.
+const STREETS: TileSpec = {
+  ...CARTO_VOYAGER,
+  attribution: CARTO_VOYAGER.attribution + " · Sites: US EPA ACRES",
+};
+
 export default function SiteMap(p: Props) {
-  const sat = p.basemap === "satellite";
+  const sat = p.basemap !== "streets";
   return (
     <MapContainer
       center={OHIO_CENTER}
@@ -42,25 +51,9 @@ export default function SiteMap(p: Props) {
       maxZoom={19}
       style={{ height: "100%", width: "100%" }}
     >
-      {sat ? (
-        <TileLayer
-          key="sat"
-          attribution="Imagery &copy; Esri, Maxar, Earthstar Geographics"
-          url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-          maxZoom={19}
-        />
-      ) : (
-        <TileLayer
-          key="std"
-          // CARTO raster basemaps require a (free) API key as of Aug 2026 —
-          // tiles without one are watermarked "API KEY REQUIRED". The key is
-          // rate-limited and shared across the fleet's apps.
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a> · Sites: US EPA ACRES'
-          url={"https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=cb1_2mty_1_1564a95dd2e80809e16b1914"}
-          subdomains="abcd"
-          maxZoom={19}
-        />
-      )}
+      {/* CARTO Voyager streets, or OSIP aerial (+ CARTO labels for hybrid);
+          see vendor/basemaps. Moves maxZoom with the choice (aerial to 21). */}
+      <BaseMapLayers baseMap={p.basemap} streets={STREETS} streetsLabels={null} />
       <CountyLayer shading={p.shading} satellite={sat} countyFilter={p.countyFilter} onPickCounty={p.onPickCounty} />
       <CountyLabels enabled={p.labels} dark={sat} />
       <SiteMarkers sites={p.sites} onSelect={p.onSelect} />
