@@ -80,8 +80,14 @@ cd C:\projects\OhioBrownfields\react-app
 npm run data
 ```
 
-This queries EPA, re-assigns counties, and rewrites `src/data/sites.json`.
+This queries EPA, re-assigns counties, and rewrites `src/data/sites.json` -
+but only if EPA's list actually changed (an unchanged list leaves the file,
+including its `retrieved` stamp, exactly as it was). It refuses a list that
+shrinks by more than a fifth, which would mean a partial answer from EPA.
 Commit and push to redeploy.
+
+`.github/workflows/acres-data.yml` does the same on the 15th of every month and
+commits and redeploys on its own when something changed.
 
 ## Project layout
 

@@ -134,13 +134,36 @@ for (const a of raw) {
 }
 sites.sort((x, y) => x.county.localeCompare(y.county) || x.name.localeCompare(y.name));
 
+// Compare with what is committed: an unchanged site list keeps the old file
+// byte-for-byte (including its `retrieved` stamp), so the scheduled refresh
+// commits only when EPA's data actually moved. A list that suddenly shrinks
+// by more than a fifth looks like a partial answer from the service, not a
+// real change - refuse it rather than publish a gutted map.
+const OUT = join(DATA_DIR, "sites.json");
+let prev = null;
+try { prev = JSON.parse(readFileSync(OUT, "utf8")); } catch { /* first build */ }
+if (prev?.sites && JSON.stringify(prev.sites) === JSON.stringify(sites)) {
+  console.log(`No change: ${sites.length} sites, same as the committed snapshot (retrieved ${prev.retrieved}).`);
+  process.exit(0);
+}
+if (prev?.count && sites.length < prev.count * 0.8) {
+  console.error(`REFUSED: EPA returned ${sites.length} sites, down from ${prev.count}. Looks like a partial response - snapshot left as it was.`);
+  process.exit(1);
+}
 const out = {
   source: "US EPA ACRES via FRS_INTERESTS MapServer/0 (STATE_CODE=OH)",
   retrieved: new Date().toISOString(),
   count: sites.length,
   sites,
 };
-writeFileSync(join(DATA_DIR, "sites.json"), JSON.stringify(out));
+writeFileSync(OUT, JSON.stringify(out));
+if (prev?.sites) {
+  const before = new Set(prev.sites.map((x) => x.id));
+  const after = new Set(sites.map((x) => x.id));
+  const added = sites.filter((x) => !before.has(x.id)).length;
+  const removed = prev.sites.filter((x) => !after.has(x.id)).length;
+  console.log(`Changes since ${prev.retrieved}: ${added} added, ${removed} removed, ${sites.length - added} kept (some may have new details).`);
+}
 const mismatch = sites.filter((s) => s.epaCounty.toLowerCase() !== s.county.toLowerCase()).length;
 console.log(
   `Wrote ${sites.length} sites to src/data/sites.json` +
